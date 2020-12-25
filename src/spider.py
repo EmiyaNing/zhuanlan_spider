@@ -32,12 +32,11 @@ def writeFile(data):
         for i in range(len(data)):
             question = data[i]['display_query']
             if judge(file, question):
-                f.write('. ')
                 f.write('[')
                 f.write(question)
                 f.write(']')
                 f.write('(')
                 f.write("https://www.zhihu.com/search?q="+str(question)+'type=content')
                 f.write(')')
-                f.write('\n')
+                f.write(' \n')
 
