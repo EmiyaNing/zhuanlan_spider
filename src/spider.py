@@ -36,7 +36,7 @@ def writeFile(data):
                 f.write(question)
                 f.write(']')
                 f.write('(')
-                f.write("https://www.zhihu.com/search?q="+str(question)+'&type=content')
+                f.write("https://www.zhihu.com/search?q="+str(question))
                 f.write(')')
                 f.write('  \n')
 
