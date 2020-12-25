@@ -32,6 +32,7 @@ jobs:
     
     - name: Run
       run: |
+        echo "123"
         git config --local user.email "18630816527@163.com"
         git config --local user.name "KuangjuX"
         git remote set-url origin https://github.actor:{{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
