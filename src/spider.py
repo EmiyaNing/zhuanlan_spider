@@ -17,7 +17,7 @@ def getData(url):
         print("请求失败" + error)
         return None
 def judge(file, question):
-    with open(file, mode='r') as f:
+    with open(file, mode='r', encoding='gbk') as f:
         line = f.readline()
         while line:
             flag = line.find(question)
@@ -28,7 +28,7 @@ def judge(file, question):
 
 def writeFile(data):
     file = 'archives'+'/'+str(datetime.date.today())+'.md'
-    with open(file, mode='a+') as f:
+    with open(file, mode='a+', encoding='gbk') as f:
         for i in range(len(data)):
             question = data[i]['display_query']
             if judge(file, question):
