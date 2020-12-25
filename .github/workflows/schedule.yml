@@ -32,11 +32,10 @@ jobs:
     
     - name: Run
       run: |
-        echo "123"
         git config --local user.email "18630816527@163.com"
         git config --local user.name "KuangjuX"
         python src
-        echo "11"
         git add .
         git commit -m "update by github action"
         git push
+        echo "success"

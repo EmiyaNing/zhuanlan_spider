@@ -38,5 +38,5 @@ def writeFile(data):
                 f.write('(')
                 f.write("https://www.zhihu.com/search?q="+str(question)+'type=content')
                 f.write(')')
-                f.write(' \n')
+                f.write('  \n')
 
