@@ -30,13 +30,13 @@ def writeFile(data):
     file = 'archives'+'/'+str(datetime.date.today())+'.md'
     with open(file, mode='a+', encoding='gbk') as f:
         for i in range(len(data)):
-            question = data[i]['display_query']
+            question = data[i]['display_query'].replace(' ','')
             if judge(file, question):
                 f.write('[')
                 f.write(question)
                 f.write(']')
                 f.write('(')
-                f.write("https://www.zhihu.com/search?q="+str(question))
+                f.write("https://www.zhihu.com/search?q="+str(question)+'&type=content')
                 f.write(')')
                 f.write('  \n')
 
