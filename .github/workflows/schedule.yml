@@ -35,9 +35,13 @@ jobs:
         echo "123"
         git config --local user.email "18630816527@163.com"
         git config --local user.name "KuangjuX"
+        echo "456"
         git remote set-url origin https://github.actor:{{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        echo "789"
         git pull --rebase
+        echo "10"
         python src
+        echo "11"
         git add .
         git commit -m "update by github action"
         git push
