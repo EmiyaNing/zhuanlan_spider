@@ -1,17 +1,26 @@
-name: Python package
+name: schedule
 
-on: [push]
+on: 
+  schedule:
+    - cron: "0 * * * *"
+  push: 
+    branches:
+      - main
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    env:
+      TZ: Asia/Shanghai
+
     strategy:
       matrix:
         python-version: [3.7]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -23,4 +32,11 @@ jobs:
     
     - name: Run
       run: |
+        git config --local user.email "justjavac@gmail.com"
+        git config --local user.name "迷渡"
+        git remote set-url origin https://github.actor:{{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git pull --rebase
         python src
+        git add .
+        git commit -m "update by github action"
+        git push
