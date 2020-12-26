@@ -16,15 +16,17 @@ def getData(url):
     except ConnectionError as error: 
         print("请求失败" + error)
         return None
+
+
 def judge(file, question):
     with open(file, mode='r', encoding='gbk') as f:
         line = f.readline()
         while line:
             flag = line.find(question)
-            if flag:
+            if flag != -1:
                 return False
             line = f.readline()    
-        return True
+    return True
 
 def writeFile(data):
     file = 'archives'+'/'+str(datetime.date.today())+'.md'
