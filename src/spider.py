@@ -1,6 +1,10 @@
 import requests
 import datetime
 import re
+import os
+import sys
+
+current_date = datetime.date.today()
 
 def getData(url):
     headers = {
@@ -9,7 +13,6 @@ def getData(url):
     try:
         response = requests.get(url=url, headers=headers)
         if response.status_code == 200:
-            # print(response.json()["top_search"]["words"])
             return response.json()["top_search"]["words"]
         else: 
             return None    
@@ -28,8 +31,18 @@ def judge(file, question):
             line = f.readline()    
     return True
 
+def trymkdir():
+    path = 'archives' + '/' + str(current_date)[0:7]
+    if not os.path.exists(path):
+        try:
+            os.makedirs(path)
+        except OSError as error:
+            print("error: "+ error)
+            sys.exit()
+
+
 def writeFile(data):
-    file = 'archives'+'/'+str(datetime.date.today())+'.md'
+    file = 'archives' + '/' + str(current_date)[0:7] + '/' + str(current_date)+'.md'
     with open(file, mode='a+', encoding='gbk') as f:
         for i in range(len(data)):
             question = data[i]['display_query'].replace(' ','')
