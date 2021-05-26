@@ -42,7 +42,7 @@ def getData(url):
     try:
         response = requests.get(url=url, headers=headers)
         if response.status_code == 200:
-            return response.json()["top_search"]["words"]
+            return response.json()
         else: 
             return None    
     except ConnectionError as error: 
@@ -51,7 +51,7 @@ def getData(url):
 
 
 def judge(file, question):
-    with open(file, mode='r', encoding='gbk') as f:
+    with open(file, mode='r', encoding='GBK') as f:
         line = f.readline()
         while line:
             flag = line.find(question)
@@ -72,7 +72,7 @@ def trymkdir():
 
 def writeFile(data):
     file = 'archives' + '/' + str(current_date)[0:7] + '/' + str(current_date)+'.md'
-    with open(file, mode='a+', encoding='gbk') as f:
+    with open(file, mode='a+', encoding='utf-8') as f:
         for i in range(len(data)):
             question = data[i]['display_query'].replace(' ','')
             if judge(file, question):

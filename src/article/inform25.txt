@@ -1,0 +1,59 @@
+titles:小管家 2020-09-18 站务简报：医疗类垃圾广告清查，「神奇药膏」勿轻信
+exception:本周，小管家看到有知友分享了自己因为使用了
+comment_count:4
+img_url:https://pic1.zhimg.com/v2-08bc6f48cba742997377e3b5f4d864a4_b.jpg
+
+
+titles:小管家 2020-09-11 站务简报：「已关闭」问题也支持侵权举报啦
+exception:为了避免提问成为攻击某个知友的工具，我们一直在完善提问环节的创作者保护机制。
+comment_count:14
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-09-04 站务简报：「恶意编辑+色情广告」，NO~
+exception:暑期悄然过，又要开学咯。
+comment_count:14
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-08-28 站务简报：把「保护」打在提问上，对「如何评价创作者 」 类问题的限制
+exception:嗖，这两个月过得可真是太快了=comment_count:25
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-08-21 站务简报：小管家的新专栏，欢迎来逛逛~
+exception:回顾了一下，小管家最近几年还是非常高产的，站务简报也已经持续更新三年多啦（可是创作等级还没有到
+comment_count:19
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-08-14 站务简报：视频中的垃圾广告信息，我们也会处理
+exception:知乎一直努力限制垃圾广告信息对知友的打扰，保护知友们的使用体验，视频形式也不例外。本周，我们对针对实体视频的垃圾广告规范进行了优化，目前，已实现对常见的垃圾广告信息覆盖和处理。
+comment_count:9
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-08-07 站务简报：内容被站外抄袭，应该如何维权？
+exception:本周，一位知友的维权文章在站内吸引了许多关注。
+comment_count:30
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-07-31 站务简报：本周，我们处理了一批「刷赞」帐号
+exception:近期，通过反作弊悟空系统，我们发现一些包含「好物推荐」卡片的内容，存在刷赞行为，伪造在社区的影响力，谋取不正当曝光。
+comment_count:33
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-07-24 站务简报：管理员什么时候会参与「公共编辑」？
+exception:知乎上可由多人参与编辑的内容，包括但不限于问题及补充说明、话题名称、话题描述、话题结构等，
+comment_count:10
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-07-17 站务简报：版权无小事，转载需谨慎
+exception:这几天，小管家收到不少关于版权问题的反馈，这一期周报小管家就再和大家好好唠唠。也欢迎知友们关注知乎最专业的版权君
+comment_count:14
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+

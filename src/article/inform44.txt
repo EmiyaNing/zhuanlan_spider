@@ -1,0 +1,60 @@
+titles:小管家 2020-04-30 站务简报：「这不是我呀」，伪造官方信息勿轻信
+exception:这是你吗，小管家？
+comment_count:12
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:仇恨评论走开，众裁改版到来：小管家的众裁报告 vol.1
+exception:1、众裁最近在热议什么？
+comment_count:38
+img_url:
+
+
+titles:小管家 2020-04-24 站务简报：对事不对人，友善讨论「好好说话」
+exception:近期，小管家发现一些想法标签下的内容普遍存在不友善行为，例如「evilwoman」、「evil-feminist」等。这些标签下的内容大多存在「不友善」内容。目前，小管家已将这些想法标签予以下线。
+comment_count:69
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-04-17 站务简报：「网赌」导流勿轻信，「悟空」助力快速封禁
+exception:近期，根据知友们的举报，我们发现站内「网赌」类广告内容大幅增长，部分帐号不仅将相似度极高的内容发布在多个问题下，还在内容中持续添加「网赌」导流内容。针对这一情况，知乎反作弊系统「悟空」及时出动，对这类内容进行自动识别。
+comment_count:25
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-04-10 站务简报：个人信息不友善，难过举报审核关
+exception:知乎的用户名、一句话介绍等个人信息，都是为了帮助知友们快速介绍自己，打造自己的个人形象。像小管家这样就是正确示范哦
+comment_count:70
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-04-04 站务简报：滥用赞同属违规，禁言处理不手软
+exception:感谢
+comment_count:106
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-03-27 站务简报：字字皆辛苦，内容版权我们来守护
+exception:淡黄的长裙，稀疏的头发
+comment_count:33
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:「正在审核中」提示优化上线
+exception:如果内容正在审核中，能不能更清楚地提示？
+comment_count:13
+img_url:
+
+
+titles:小管家 2020-03-20 站务简报：这些违规「好物推荐官」被一网打尽啦
+exception:风恬日暖荡春光，戏蝶游蜂乱入房。
+comment_count:50
+img_url:https://pic3.zhimg.com/v2-ab06ad78380a8a9003f7543f8d16a3c5_b.jpg
+
+
+titles:小管家 2020-03-13 站务简报：「悟空」打怪归来再升级，日均处理刷赞量提升 208%
+exception:「悟空」是知乎的反作弊系统，自诞生以来就一直和站内的「妖魔鬼怪」进行斗争，它可以快速识别刷赞、刷关注和垃圾广告等作弊行为，是维护社区氛围的重要工具。近期，我们对悟空系统进行了新一轮升级和优化，极大地提升了它的识别能力。
+comment_count:48
+img_url:https://pic2.zhimg.com/v2-6d693cefb320079029a4c1e5af8b9b92_b.jpg
+
+
